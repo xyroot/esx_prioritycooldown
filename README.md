@@ -1,4 +1,4 @@
-# prioritycooldown [ESX Compatible]
+# esx_prioritycooldown [ESX Compatible]
 ESX Compatible Crime Status Script
 
 ## Features
@@ -18,7 +18,7 @@ ESX Compatible Crime Status Script
 ## To Install
 1. Download the Initial Release
 2. Extract the zip into your server resources
-3. Add ```start prioritycooldown``` in your server.cfg
+3. Add ```start esx_prioritycooldown``` in your server.cfg
 
 ## Modifications
 ### Changing the Cooldown Timer
