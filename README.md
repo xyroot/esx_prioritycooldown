@@ -1,4 +1,4 @@
-# esx_prioritycooldown [ESX Compatible]
+# esx_prioritycooldown
 ESX Compatible Crime Status Script
 
 ## Features
