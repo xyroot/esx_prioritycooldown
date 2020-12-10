@@ -122,10 +122,7 @@ AddEventHandler("cancelcooldown", function()
 	end
 	
 end)
-RegisterNetEvent('esx:playerLoaded')
-AddEventHandler('esx:playerLoaded', function(playerData)
-**	
-end)
+
 --Refresh the statuses to create sync for newly joined players and de-synced players | Refreshes every 5 seconds.
 Citizen.CreateThread(function()
 	while true do
