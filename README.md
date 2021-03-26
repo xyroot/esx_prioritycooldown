@@ -3,6 +3,8 @@ ESX Compatible Crime Status Script
 
 
 # Changelog
+## esx_prioritycooldown v1.1 (LATEST) [03-26-21]
+* added support for es_extended 1.1 (modify this in config.lua)
 ## esx_prioritycooldown v1.0 [03-26-21]
 * Added Config File (no need to manually go through client and server luas to make changes)
 * Added Support for Locales and Translations
@@ -51,7 +53,7 @@ However, if I do come back to it, I may work on the following:
 3. Add ```start esx_prioritycooldown``` in your server.cfg
 
 ## Requirements
-- es_extended 1.2
+- es_extended 1.2 or es_extended 1.1
 - chat
 ## Credits
 Credits to Scott_UK & LanceGood for the initial script-release and basis for modifications.
