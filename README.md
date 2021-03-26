@@ -1,14 +1,21 @@
 # esx_prioritycooldown
 ESX Compatible Crime Status Script
 
+
+## Changelog
+
+
+
 ## Features
 * Command restricted only for police personnel (players with police job)
 * Re-syncs crime status for players
+* Discord Webhook
+* Locale Support (you have to translate for your language)
 
 ## Commands
 - /safe - Sets the crime status to Safe
-- /cooldown - Sets the crime status to a 15 minute cooldown
-- /inprogress - Sets the crime status to On Going
+- /cooldown - Sets the crime status to a 15 minute cooldown (default)
+- /inprogress - Sets the crime status to Inprogress
 - /resetpcd - Empties the cooldown timer out. 
 
 ## Usage
