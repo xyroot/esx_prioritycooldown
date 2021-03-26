@@ -8,6 +8,7 @@ ESX Compatible Crime Status Script
 * Added Support for Locales and Translations
 * Added Discord Webhook (optional)
 * Reworked 2d text draw
+* Used ESX notification (bottom-left) instead of the old one (top-left)
 ### Configuration
 * Set your desired locale (default: en)
 * Allowed job (single not multiple) (default: police)
