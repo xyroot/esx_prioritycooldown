@@ -2,8 +2,29 @@
 ESX Compatible Crime Status Script
 
 
-## Changelog
+# Changelog
+## esx_prioritycooldown v1.0 [03-26-21]
+* Added Config File (no need to manually go through client and server luas to make changes)
+* Added Support for Locales and Translations
+* Added Discord Webhook (optional)
+* Reworked 2d text draw
+### Configuration
+* Set your desired locale (default: en)
+* Allowed job (single not multiple) (default: police)
+* Set your own timer in mins (default: 15)
+* Set your own resync time in seconds (default: 5)
+* Customizable Discord Webhook (Title, Footer, Footer Image & Color)
+* Webhook language is controlled via selected locale
 
+### Locales
+* EN
+* You are free to add your own translations. If you've already made your own and want to integrate, please do a merge request
+
+### Future Plans
+I may not be updating this for a while, due to the fact that better priority scripts have already been created.
+However, if I do come back to it, I may work on the following:
+* Support for multiple jobs
+* Support for admins to use the commands regardless of the job 
 
 
 ## Features
@@ -26,27 +47,6 @@ ESX Compatible Crime Status Script
 1. Download the Initial Release
 2. Extract the zip into your server resources
 3. Add ```start esx_prioritycooldown``` in your server.cfg
-
-## Modifications
-### Changing the Cooldown Timer
-Open the ```server.lua``` and change the ```timermax``` value to your desired number of minutes + 1. If you want a cooldown timer of 10 minutes, set it to 11. (Default value = 16)
-### Changing the required job to trigger the command
-You can modify the required job in the following lines in ```server.lua```
-- line 8
-- line 20
-- line 32
-- line 44
-### Changing the notification that shows for non-police personnel who attempt to use the command
-Modify the else function on the following lines in ```server.lua```
-- line 12
-- line 24
-- line 36
-- line 47
-
-### Modifying the chat message when the status changes
-Modify in these lines in ```server.lua```
-- line 72
-- line 104
 
 ## Requirements
 - es_extended 1.2
