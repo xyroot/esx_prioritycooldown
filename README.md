@@ -26,6 +26,7 @@ I may not be updating this for a while, due to the fact that better priority scr
 However, if I do come back to it, I may work on the following:
 * Support for multiple jobs
 * Support for admins to use the commands regardless of the job 
+* Support for robbery integration
 
 
 ## Features
