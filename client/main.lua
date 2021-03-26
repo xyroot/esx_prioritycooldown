@@ -24,13 +24,11 @@ Citizen.CreateThread(function()
 	while true do
 		Citizen.Wait(0)
 		if ishold == true then
-            drawTxt(_U('crime_ongoing'), 4, color, 0.5, screenPosX + 0.1 , screenPosY + 0.075) 
+            drawTxt(_U('crime_ongoing'), 4, color, 0.5, screenPosX + Config.xcoords , screenPosY + Config.ycoords) 
 		elseif ispriority == false then
-            drawTxt(_U('crime_cooldown', cooldown), 4, color, 0.5, screenPosX + 0.1 , screenPosY + 0.075) 
-
+            drawTxt(_U('crime_cooldown', cooldown), 4, color, 0.5, screenPosX + Config.xcoords , screenPosY + Config.ycoords) 
 		elseif ispriority == true then
-			-- DrawText2("Crime: ~g~Safe")
-            drawTxt(_U('crime_safe'), 4, color, 0.5, screenPosX + 0.1 , screenPosY + 0.075) 
+            drawTxt(_U('crime_safe'), 4, color, 0.5, screenPosX + Config.xcoords , screenPosY + Config.ycoords) 
 		end
 	end
 end)
