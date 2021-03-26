@@ -1,4 +1,7 @@
 Config = {}
+
+--ES EXTENDED Version Use 1.1 if you are using es_extended 1.1, 1.2 if you are using es_extended 1.2
+Config.version = 1.3 --default 1.2 | set to your version of es extended. Currently only supporting 1.1 and 1.2
 Config.Locale = 'en'
 Config.allowedJob = 'police'
 Config.timer = 15 --Default: 15 | Number of minutes for the countdown of the cooldown
