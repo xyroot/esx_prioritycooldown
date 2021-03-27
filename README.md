@@ -1,5 +1,24 @@
 # esx_prioritycooldown
 ESX Compatible Crime Status Script
+# Screenshots
+![Screenshot 1](https://user-images.githubusercontent.com/28510460/112712098-1df46b80-8f08-11eb-99dc-be03c2b09262.png)
+
+*Safe Status (/safe)*
+
+![image](https://user-images.githubusercontent.com/28510460/112712099-29479700-8f08-11eb-9fc8-e62530dff6b9.png)
+
+
+*In Cooldown (/cooldown)
+
+
+![image](https://user-images.githubusercontent.com/28510460/112712101-32386880-8f08-11eb-863d-c1f7859a9177.png)
+
+*Chat messages from status changes*
+
+
+[![image.png](https://i.postimg.cc/Hn9qY59v/image.png)](https://postimg.cc/gLrS4x53)
+
+*Discord Embeds (optional via config)*
 
 
 # Changelog
